@@ -315,6 +315,13 @@ html {
   font-weight: 700;
   font-size: 20px;
 }
+#icon_finger {
+  color: red;
+  font-size: 25px;
+}
+#icon-all {
+  color: blue;
+}
 .svg_3{
  display: flex;
  align-items: center;
