@@ -4,7 +4,7 @@ const downloadBtn  = document.getElementById('download-btn');
 
 downloadBtn.addEventListener('click', () => {
   const link = document.createElement('a');
-  link.href = './my-resume/Abbas-Simple Resume (1).pdf';
+  link.href = './my-resume/Light Green Simple Resume.pdf';
 
   link.click();
 
@@ -21,8 +21,8 @@ const downloadCv = document.getElementById('my-cv');
 
 downloadCv.addEventListener('click', () => {
   const downloadMyCv =document.createElement ('a');
-  downloadMyCv.href = './my-resume/Abbas-Simple Resume (1).pdf';
-  downloadMyCv.download = './my-resume/Abbas-Simple Resume (1).pdf';
+  downloadMyCv.href = './my-resume/Light Green Simple Resume.pdf';
+  downloadMyCv.download = './my-resume/Light Green Simple Resume.pdf';
   downloadMyCv.click();
 
   try {
