@@ -1,0 +1,124 @@
+@media(max-width: 500px) {
+  .main_body img {
+     display: none;
+  }
+
+  .main_body{
+    align-content: center;
+    font-size: medium;
+    justify-items: center;
+    font-size: small;
+    padding-left: 30px;
+  }
+
+  .navbar--1 {
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding: 2px;
+
+  }
+  
+  .exp {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .exp-1 h1 p
+  {
+    font-size: 100px;
+  }
+
+  .do {
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 1.5px;
+  }
+  .transform {
+    align-items: center;
+    margin-bottom: 1.5px;
+  }
+
+  .cards {
+    display: block;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+  }
+
+  .about{
+    display: block;
+  }
+  
+  .abt_img {
+    display: none;
+  }
+  .abt {
+    align-items: center;
+    padding-left: 30px;
+    justify-content: center;
+  }
+  .connect {
+    display: block;
+    width: 100%;
+  }
+
+  .contact_me {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+
+ 
+
+  #message {
+    width: 100%;
+  }
+}
+
+@media (width <= 740px) {
+  .profile {
+    margin: 0 2.25rem;
+    margin-top: 20px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .profile__content {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 7;
+  }
+
+  .profile__skills {
+    justify-content: center;
+  }
+
+  .profile__right {
+    margin-left: 0;
+  }
+
+  .profile h2 {
+    margin-right: 0;
+    font-size: 1.5rem;
+  }
+
+  .profile__preview {
+    margin: -8rem 0 2rem 0;
+  }
+
+  .profile__preview img {
+    border-radius: 40%;
+  }
+
+  .profile__footer {
+    justify-content: center;
+  }
+}
